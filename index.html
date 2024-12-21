@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>SoukConnect</title>
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-md fixed-top custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg"  height="20" fill="currentColor" class="bi bi-shop mb-2" viewBox="0 0 16 16">
+          <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z"/>
+        </svg> SoukConnect</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Jewelry</a></li>
+                <li><a class="dropdown-item" href="#">Rugs & Carpets</a></li>
+                <li><a class="dropdown-item" href="#">Ceramics & Pottery</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 custom-input" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-custom" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+  </section>
+  <section id="title" class="gradient-background " >
+    <div class="container col-xxl-8 px-4 pt-2">
+      <div class="row flex-lg-row-reverse align-items-center g-5  pt-2">
+        <div class="col-10 col-sm-8 col-lg-6 mb-5">
+          <img src="images/dev.png" class="d-block mx-lg-auto img-fluid " alt=""   height="300" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">Discover the Beauty of Moroccan Handicrafts.</h1>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-light btn-lg px-4 me-md-2" fdprocessedid="q5nyxf">
+              <svg xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor" class="bi bi-bag-fill mb-2" viewBox="0 0 16 16">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+              </svg>  Browse the Souk</button>
+            <button type="button" class="btn  btn-outline-dark btn-lg px-4" fdprocessedid="naoxgf"> 
+              <svg class="mb-2" height="20px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M704 288h131.072a32 32 0 0 1 31.808 28.8L886.4 512h-64.384l-16-160H704v96a32 32 0 1 1-64 0v-96H384v96a32 32 0 0 1-64 0v-96H217.92l-51.2 512H512v64H131.328a32 32 0 0 1-31.808-35.2l57.6-576a32 32 0 0 1 31.808-28.8H320v-22.336C320 154.688 405.504 64 512 64s192 90.688 192 201.664v22.4zm-64 0v-22.336C640 189.248 582.272 128 512 128c-70.272 0-128 61.248-128 137.664v22.4h256zm201.408 483.84L768 698.496V928a32 32 0 1 1-64 0V698.496l-73.344 73.344a32 32 0 1 1-45.248-45.248l128-128a32 32 0 0 1 45.248 0l128 128a32 32 0 1 1-45.248 45.248z"/></svg>  Sell Your Goods</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <div class="container px-4 py-5" id="hanging-icons">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 mt-5">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg fill="#000000" height="30px" height="800px" viewBox="0 0 50 50" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" overflow="inherit"><path d="M46.476 20.662l-.013-.101c-.028-.141-.08-.283-.127-.362l-6.336-10.199s-.808-1-1-1h-27l-8.12 10.853-.096.1-.013.047c-.064.101-.119.215-.168.35l-.033.097c-.048.166-.07.31-.064.526.007.14.032.279.077.424l.038.109c.051.129.114.247.188.352l19.631 24.867.04.057c.101.13.224.245.374.35l.114.071c.112.07.229.126.399.188l.111.037c.192.049.359.072.522.072.165 0 .326-.022.543-.078l.133-.047c.13-.046.247-.103.388-.19l.088-.055c.151-.107.272-.223.339-.314l19.656-24.893c.088-.114.162-.242.25-.469.048-.126.069-.248.08-.321l.015-.129.008-.102-.024-.24zm-10.54-.662l2.798-5.063 2.796 5.063h-5.594zm-1.678 3h6.638l-11.064 14.015 4.426-14.015zm-1.642-4.518l-4.041-5.482h7.07l-3.029 5.482zm-12.944 4.518h10.659l-5.331 16.877-5.328-16.877zm1.057-3l4.271-5.796 4.271 5.796h-8.542zm-3.008-1.972l-1.852-5.028h5.557l-3.705 5.028zm2.449 18.988l-11.065-14.016h6.639l4.426 14.016zm-7.505-22.044l1.853 5.028h-5.558l3.705-5.028z"/></svg>
+        </div>
+        <div>
+          <h3 class="fs-3 text-body-emphasis">Jewelry</h3>
+          <p class="text-muted"><i>Exquisite handmade treasures for every occasion.</i></p>
+          <img class="features mt-3" loading="lazy" src="./images/jewelry.jpg" alt="">
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg fill="#000000" height="30" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+          viewBox="0 0 431.762 431.762" xml:space="preserve">
+       <g>
+         <g>
+           <path d="M321.843,405.303H109.92c-2.485,0-4.5-2.015-4.5-4.5V30.96c0-2.485,2.015-4.5,4.5-4.5h211.923c2.485,0,4.5,2.015,4.5,4.5
+             v369.843C326.343,403.288,324.328,405.303,321.843,405.303z M114.42,396.303h202.923V35.46H114.42V396.303z"/>
+         </g>
+         <g>
+           <g>
+             <path d="M215.88,238.585L215.88,238.585c-1.193,0-2.338-0.475-3.182-1.318l-18.203-18.204c-1.757-1.757-1.757-4.606,0-6.363
+               l18.203-18.204c0.844-0.844,1.989-1.318,3.182-1.318c1.193,0,2.338,0.474,3.182,1.318l18.205,18.204
+               c0.844,0.844,1.318,1.988,1.318,3.182c0,1.193-0.474,2.338-1.318,3.182l-18.205,18.204
+               C218.218,238.111,217.073,238.585,215.88,238.585z M204.041,215.881l11.839,11.84l11.841-11.84l-11.841-11.84L204.041,215.881z"
+               />
+           </g>
+           <g>
+             <path d="M215.88,142.605c-1.152,0-2.303-0.439-3.182-1.318l-18.203-18.203c-1.757-1.757-1.757-4.606,0-6.363l18.203-18.204
+               c0.844-0.844,1.989-1.318,3.182-1.318c1.193,0,2.338,0.474,3.182,1.318l18.205,18.204c0.844,0.844,1.318,1.988,1.318,3.182
+               c0,1.193-0.474,2.338-1.318,3.183l-18.205,18.203C218.183,142.166,217.031,142.605,215.88,142.605z M204.041,119.902
+               l11.839,11.839l11.841-11.839l-11.841-11.84L204.041,119.902z"/>
+           </g>
+           <g>
+             <path d="M215.88,334.564L215.88,334.564c-1.193,0-2.338-0.475-3.182-1.318l-18.203-18.204c-1.757-1.757-1.757-4.607,0-6.363
+               l18.203-18.203c1.758-1.759,4.607-1.756,6.364-0.001l18.205,18.203c0.844,0.845,1.318,1.989,1.318,3.183
+               c0,1.193-0.474,2.338-1.318,3.182l-18.205,18.204C218.218,334.09,217.073,334.564,215.88,334.564z M204.041,311.859l11.839,11.84
+               l11.841-11.84l-11.841-11.839L204.041,311.859z"/>
+           </g>
+         </g>
+         <g>
+           <g>
+             <g>
+               <path d="M170.064,188.033c-1.152,0-2.303-0.439-3.182-1.318l-15.643-15.643c-1.757-1.757-1.757-4.606,0-6.363l15.643-15.643
+                 c0.844-0.844,1.989-1.318,3.182-1.318s2.338,0.474,3.182,1.318l15.644,15.643c0.844,0.844,1.318,1.988,1.318,3.182
+                 c0,1.193-0.474,2.338-1.318,3.182l-15.644,15.643C172.368,187.594,171.216,188.033,170.064,188.033z M160.786,167.891
+                 l9.279,9.278l9.279-9.278l-9.279-9.279L160.786,167.891z"/>
+             </g>
+             <g>
+               <path d="M170.064,284.012c-1.152,0-2.303-0.44-3.182-1.318l-15.643-15.642c-1.758-1.757-1.758-4.606,0-6.363l15.643-15.644
+                 c0.844-0.844,1.989-1.318,3.182-1.318s2.338,0.474,3.182,1.318l15.644,15.644c0.844,0.844,1.318,1.988,1.318,3.182
+                 c0,1.193-0.474,2.338-1.318,3.183l-15.644,15.642C172.368,283.572,171.216,284.012,170.064,284.012z M160.786,263.87
+                 l9.279,9.278l9.279-9.278l-9.279-9.279L160.786,263.87z"/>
+             </g>
+           </g>
+           <g>
+             <path d="M263.848,222.268l8.295,8.295c0.878,0.879,2.03,1.318,3.182,1.318c1.151,0,2.303-0.439,3.182-1.318l11.501-11.5
+               c0.844-0.844,1.318-1.988,1.318-3.182c0-1.193-0.474-2.338-1.318-3.182l-11.501-11.502c-0.844-0.844-1.989-1.318-3.182-1.318
+               c-1.193,0-2.338,0.475-3.182,1.318l-8.295,8.296l-41.604-41.602l41.604-41.602l8.295,8.295c0.878,0.879,2.03,1.318,3.182,1.318
+               c1.151,0,2.303-0.439,3.182-1.318l11.501-11.5c0.844-0.844,1.318-1.988,1.318-3.182c0-1.193-0.474-2.338-1.318-3.182
+               l-11.501-11.501c-1.758-1.758-4.607-1.758-6.364,0l-8.295,8.295L219.062,68.73c-0.844-0.845-1.989-1.318-3.182-1.318
+               c-1.193,0-2.338,0.475-3.182,1.318l-44.783,44.784l-8.295-8.295c-0.844-0.845-1.989-1.318-3.182-1.318
+               c-1.193,0-2.338,0.475-3.182,1.318l-11.5,11.501c-1.757,1.757-1.757,4.606,0,6.363l11.5,11.5c0.879,0.879,2.03,1.318,3.182,1.318
+               c1.151,0,2.303-0.439,3.182-1.318l8.295-8.295l41.602,41.602l-41.602,41.602l-8.295-8.296c-0.844-0.844-1.989-1.318-3.182-1.318
+               c-1.194,0-2.338,0.475-3.182,1.318l-11.5,11.502c-1.757,1.757-1.757,4.606,0,6.363l11.5,11.5c0.879,0.879,2.03,1.318,3.182,1.318
+               c1.151,0,2.303-0.439,3.182-1.318l8.295-8.295l41.602,41.604l-41.602,41.602l-8.294-8.295c-0.844-0.845-1.989-1.318-3.182-1.318
+               c-1.193,0-2.338,0.475-3.182,1.318l-11.5,11.501c-1.757,1.757-1.757,4.606,0,6.363l11.5,11.5c0.879,0.879,2.03,1.318,3.182,1.318
+               c1.151,0,2.303-0.44,3.182-1.318l8.295-8.295l44.783,44.784c0.844,0.844,1.989,1.318,3.182,1.318
+               c1.193,0,2.338-0.475,3.182-1.318l44.785-44.784l8.295,8.295c0.878,0.879,2.03,1.318,3.182,1.318c1.151,0,2.303-0.44,3.182-1.318
+               l11.501-11.5c0.844-0.844,1.318-1.988,1.318-3.182c0-1.193-0.474-2.338-1.318-3.182l-11.501-11.501
+               c-1.758-1.758-4.607-1.758-6.364,0l-8.295,8.295l-41.604-41.602L263.848,222.268z M275.324,210.743l5.137,5.138l-5.137,5.137
+               l-5.137-5.137L275.324,210.743z M275.324,114.766l5.137,5.137l-5.137,5.137l-5.137-5.137L275.324,114.766z M156.438,125.038
+               l-5.136-5.136l5.136-5.137l5.137,5.137L156.438,125.038z M215.88,78.276l41.627,41.626l-41.627,41.624l-41.626-41.624
+               L215.88,78.276z M156.438,221.017l-5.136-5.136l5.136-5.138l5.137,5.138L156.438,221.017z M215.88,174.255l41.627,41.626
+               l-41.627,41.626l-41.626-41.626L215.88,174.255z M156.438,316.996l-5.136-5.136l5.136-5.137l5.137,5.137L156.438,316.996z
+                M275.324,306.724l5.137,5.137l-5.137,5.137l-5.137-5.137L275.324,306.724z M215.88,353.485l-41.626-41.626l41.626-41.624
+               l41.627,41.624L215.88,353.485z"/>
+             <g>
+               <path d="M261.697,188.033c-1.152,0-2.303-0.439-3.182-1.318l-15.644-15.643c-0.844-0.844-1.318-1.988-1.318-3.182
+                 c0-1.193,0.474-2.338,1.318-3.182l15.644-15.643c0.844-0.844,1.989-1.318,3.182-1.318l0,0c1.193,0,2.338,0.475,3.182,1.318
+                 l15.643,15.643c1.757,1.757,1.757,4.607,0,6.363l-15.643,15.643C264,187.594,262.849,188.033,261.697,188.033z M252.418,167.891
+                 l9.279,9.278l9.279-9.278l-9.279-9.279L252.418,167.891z"/>
+             </g>
+             <g>
+               <path d="M261.697,284.012c-1.151,0-2.303-0.44-3.182-1.317l-15.644-15.642c-0.844-0.845-1.318-1.989-1.318-3.183
+                 c0-1.193,0.474-2.338,1.318-3.182l15.644-15.644c0.844-0.844,1.989-1.318,3.182-1.318l0,0c1.193,0,2.338,0.475,3.182,1.318
+                 l15.643,15.644c1.757,1.757,1.757,4.607,0,6.363l-15.643,15.642C264,283.572,262.849,284.012,261.697,284.012z M252.418,263.87
+                 l9.279,9.278l9.279-9.278l-9.279-9.279L252.418,263.87z"/>
+             </g>
+             <path d="M301.863,47.854H129.898c-2.485,0-4.5,2.015-4.5,4.5v327.056c0,2.485,2.015,4.5,4.5,4.5h171.965
+               c2.485,0,4.5-2.015,4.5-4.5V52.354C306.363,49.868,304.349,47.854,301.863,47.854z M270.976,67.995l-9.278,9.278l-9.279-9.278
+               l9.279-9.278L270.976,67.995z M179.344,67.995l-9.279,9.278l-9.278-9.278l9.278-9.278L179.344,67.995z M170.064,373.046
+               l-9.279-9.278l9.279-9.279l9.279,9.279L170.064,373.046z M261.697,373.046l-9.279-9.278l9.279-9.279l9.279,9.279L261.697,373.046
+               z M297.363,374.909h-24.802l7.96-7.96c1.758-1.757,1.758-4.607,0-6.363l-15.643-15.644c-0.844-0.844-1.989-1.318-3.182-1.318
+               s-2.338,0.475-3.182,1.318l-15.644,15.644c-0.844,0.844-1.318,1.988-1.318,3.182c0,1.193,0.474,2.338,1.318,3.183l7.96,7.959
+               H180.93l7.96-7.959c0.844-0.845,1.318-1.989,1.318-3.183c0-1.193-0.474-2.338-1.318-3.182l-15.644-15.644
+               c-0.844-0.845-1.989-1.318-3.182-1.318s-2.338,0.475-3.182,1.318l-15.643,15.644c-1.757,1.757-1.757,4.606,0,6.363l7.96,7.96
+               h-24.802V56.854h24.802l-7.96,7.96c-0.844,0.844-1.318,1.988-1.318,3.182c0,1.193,0.474,2.338,1.318,3.182l15.643,15.643
+               c0.879,0.879,2.03,1.318,3.182,1.318c1.151,0,2.303-0.439,3.182-1.318l15.644-15.643c0.844-0.844,1.318-1.988,1.318-3.182
+               c0-1.193-0.474-2.338-1.318-3.183l-7.96-7.959h69.902l-7.96,7.959c-0.844,0.845-1.318,1.989-1.318,3.183
+               c0,1.193,0.474,2.338,1.318,3.182l15.644,15.643c0.878,0.879,2.03,1.318,3.182,1.318c1.152,0,2.303-0.439,3.182-1.318
+               l15.643-15.643c0.844-0.844,1.318-1.988,1.318-3.182c0-1.193-0.474-2.338-1.318-3.182l-7.96-7.96h24.802V374.909z"/>
+           </g>
+         </g>
+         <path d="M336.256,0c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5s-4.5,2.015-4.5,4.5v7.014h-6.047V4.5
+           c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5
+           v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5
+           c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5
+           c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5
+           v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5
+           c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5
+           c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5
+           v7.014H130.1V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5
+           c-2.485,0-4.5,2.015-4.5,4.5v7.014h-6.047V4.5c0-2.485-2.015-4.5-4.5-4.5c-2.485,0-4.5,2.015-4.5,4.5v422.762
+           c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5
+           v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5
+           c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013
+           c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5
+           v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5
+           c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013
+           c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5
+           v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5
+           c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5v-7.013h6.047v7.013
+           c0,2.485,2.015,4.5,4.5,4.5s4.5-2.015,4.5-4.5v-7.013h6.047v7.013c0,2.485,2.015,4.5,4.5,4.5c2.485,0,4.5-2.015,4.5-4.5V4.5
+           C340.756,2.015,338.741,0,336.256,0z M100.006,20.514h231.75v390.735h-231.75V20.514z"/>
+       </g>
+       </svg>
+        </div>
+        <div>
+          <h3 class="fs-3 text-body-emphasis">Rugs & Carpets</h3>
+          <p class="text-muted"> <i>Authentic Moroccan designs, woven with care.</i></p>
+          <img src="./images/carpets.jpg" class="features mt-3" loading="lazy" alt="">
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg  height="40px" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M151.706 103.982C118.221 122.079 102.166 132.319 97.161 150.905C82.5309 209.201 146.446 309.24 161.05 314.395" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M242.465 97.4648C242.025 101.43 241.681 104.458 245.379 106.4C305.064 137.757 302.724 161.277 303.748 171.005C307.491 206.558 268.817 302.411 235.793 315.254" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M164.059 316.113C192.691 322.308 206.195 322.454 234.076 316.298" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M142.737 84.5358C167.142 79.7704 175.943 79.4736 198.92 79.0685C238.185 78.376 252.735 83.1329 254.795 84.3958C259.337 87.1793 257.533 92.2991 257.066 93.6986" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M144.3 94.2476C153.478 91.9371 182.661 89.892 197.466 89.7373C217.917 89.5238 252.905 93.7223 253.986 95.8825C255.328 98.5676 247.871 99.776 247.062 99.9375" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M154.907 95.6843C155.738 98.7354 153.739 102.769 151.705 103.982" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M144.324 94.2476C139.932 95.6844 145.651 100.555 149.476 100.555" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M142.738 84.5359C140.024 86.4916 139.182 91.3383 140.689 94.3529" stroke="#000000" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div>
+          <h3 class="fs-3 text-body-emphasis">Ceramics & Pottery</h3>
+          <p class="text-muted"> <i>Timeless artistry in clay and glaze.</i></p>
+          <img src="./images/pottery.jpg" class="features mt-3" loading="lazy" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </section>
+  <section id="testimonial"> 
+  <div class="my-5">
+  <div class="p-5 text-center bg-light">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container py-5 d-block w-100">
+            <p class="text-body-emphasis fs-4 "> "The ceramic tagine I ordered is absolutely exquisite! Not only is 
+              it functional for cooking, but it’s also a work of art. The detailing reflects the rich Moroccan culture,
+               and I get compliments on it every time I host a dinner. Shopping here was a seamless experience" </p>
+            <img class="profile-img mt-5" src="./images/stephen.jpg" width="" alt="">
+            <p class="col-lg-8 mx-auto lead mt-2">
+              Stephen, New York
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container py-5 d-block w-100">
+            <p class="text-body-emphasis fs-4 "> "I purchased a beautiful Berber carpet, and the craftsmanship
+               is stunning. The colors and patterns are even more vibrant in person. It feels like I brought a
+                piece of Morocco into my home. The delivery was prompt, and the packaging ensured everything
+                 arrived in perfect condition. Highly recommended!" </p>
+            <img class="profile-img mt-5" src="./images/saad.jpg" alt="">
+            <p class="col-lg-8 mx-auto lead mt-2">
+              Saad, Fez
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+           <div class="container py-5 d-block w-100">
+            <p class="text-body-emphasis fs-4 "> "I am so impressed by the quality and authenticity of the jewelry
+               I bought. The intricate silver design is breathtaking, and it feels so unique compared to
+                mass-produced pieces. This marketplace is a treasure trove of Moroccan heritage. I’ll definitely
+                 be back for more!" </p>
+            <img class="profile-img mt-5" src="./images/avatar.png" alt="">
+            <p class="col-lg-8 mx-auto lead mt-2">
+              Alice, Paris
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-12">
+          <img src="./images/hesp.jpg" alt="hespress" height="30">
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <img src="./images/360.png" alt="le360" height="30">
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <img src="./images/meddia.png" alt="media24" height="30">
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <img src="./images/menara.png" alt="menara" height="30">
+        </div>
+      </div>
+    </div> 
+  </div>   
+  </div>
+  </section>
+  
+  <section id="pricing">
+    <div class="container py-3">
+      <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">A Plan for Every Artisan's Dream</h1>
+          <p class="fs-5 text-body-secondary lead">Flexible and affordable subscription plans tailored for your marketplace journey</p>
+        </div>
+      </header>
+    
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Weekly</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">15 MAD<small class="text-body-secondary fw-light">/wk</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>3 Product Listings Included</li>
+                  <li>Basic Support</li>
+                  <li>Access to the Marketplace</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg  btn-outline-dark">Start Your Week</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Monthly</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">40 MAD<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>15 Product Listings Included</li>
+                  <li>Priority Email Support</li>
+                  <li>Analytics Access</li>
+                  <li>Exclusive Marketplace Features</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header py-3 text-white bg-dark border-dark">
+                <h4 class="my-0 fw-normal">Annual</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">199 MAD<small class="text-body-secondary fw-light">/yr</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Unlimited Product Listings</li>
+                  <li>Dedicated Phone and Email Support</li>
+                  <li>Advanced Analytics</li>
+                  <li>Exclusive Marketplace Perks</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Go annual</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+<section id="Footer" class="gradient-background">
+  <div class="container mt-5 py-5">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 mt-2 py-2">
+      <div class="col mb-3">
+        <p class="text-body-secondary">© 2024</p>
+      </div>
+  
+      <div class="col mb-3">
+  
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Categories</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Products</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">About</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Categories</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Products</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">About</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Categories</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">Products</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+</body>
+
+</html>

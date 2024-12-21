@@ -1,0 +1,124 @@
+.gradient-background {
+  background: linear-gradient(300deg,#FF7A59 ,#FFB347,#FFD65C);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.icon-square{
+ width: 3rem;
+ height: 3rem;
+ border-radius: 0.75rem;
+ background-color: #e9ecef;
+}
+
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.features{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+.custom-navbar {
+  background-color: rgba(51, 51, 51, 0.9); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.custom-navbar .navbar-brand {
+  color: #FFD65C; 
+  font-weight: bold;
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: #FFB347; 
+}
+
+
+.custom-navbar .nav-link {
+  color: #FFFFFF; 
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #FF7A59; 
+}
+
+
+
+.custom-navbar .navbar-toggler {
+  border-color: #FFD65C; 
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%287, 7, 7, 0.8%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.custom-input {
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #FFFFFF;
+  border: 1px solid #FFD65C; 
+}
+
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.btn-custom {
+  background-color: #FF7A59;
+  color: #FFFFFF; 
+  border: 1px solid #FF7A59;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background-color: #FFB347; 
+  color: #000000; 
+}
+
+.dropdown-menu {
+  background-color: rgba(51, 51, 51, 0.9); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  border: none;
+ 
+}
+
+.dropdown-item {
+  color: white;
+  padding: 10px 20px;
+  font-weight: normal;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(0.3); 
+}
+.carousel-indicators [data-bs-target] {
+  filter: invert(0.3);
+}
+.carousel-indicators .active {
+  filter: invert(0.8); 
+}
+
